@@ -29,6 +29,23 @@ This program is a coffee machine simulator that allows users to perform various 
 - `Main`: The Main class is the entry point of the program. It provides the main menu and handles user input. It interacts with the `CoffeeMachineSimulator` class to perform the coffee machine actions.
 - `CoffeeMachineSimulator`: The `CoffeeMachineSimulator` class implements the coffee machine logic. It manages the ingredients (water, milk, and beans), performs the actions (buying coffee, filling ingredients, cleaning the machine), and keeps track of coffee sales analytics.
 
+## Steps wise Step Explanation
+
+- Step 1: Run the program and select the action to perform
+ ![image](https://github.com/officialparishjain/CoffeeMachineSimulator/assets/124424043/9eadf8e7-8f00-4b69-b6f6-8fda95b1e9f6)
+- Step 2: Fill the Ingredients
+- ![image](https://github.com/officialparishjain/CoffeeMachineSimulator/assets/124424043/927511d0-6058-41a1-b514-e31535a0a507)
+- Step 3: Buy the coffee  select between options (1-Espresso , 2- Cappuccino, 3-Latte)
+- ![image](https://github.com/officialparishjain/CoffeeMachineSimulator/assets/124424043/22138e09-cfd1-403b-aac8-88216545a73e)
+- Step 4: Check Sales Analytics and Money Collected
+- ![image](https://github.com/officialparishjain/CoffeeMachineSimulator/assets/124424043/8241d660-fead-4825-8c2a-e8ffe016ab26)
+- Step 5: Ingredients Details
+- ![image](https://github.com/officialparishjain/CoffeeMachineSimulator/assets/124424043/b03135b5-00a0-4b6f-af8e-0b7a84aeed4b)
+
+
+
+
+
 ## Authors
 
 - Name: Parish Jain
