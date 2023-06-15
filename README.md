@@ -24,10 +24,55 @@ This program is a coffee machine simulator that allows users to perform various 
 5. **Coffee Sales Analytics**: Shows the statistics of coffee sales, including the number of each type of coffee sold and the total earnings.
 6. **Exit**: Exits the coffee machine simulator.
 
+
 ## Classes
 
-- `Main`: The Main class is the entry point of the program. It provides the main menu and handles user input. It interacts with the `CoffeeMachineSimulator` class to perform the coffee machine actions.
-- `CoffeeMachineSimulator`: The `CoffeeMachineSimulator` class implements the coffee machine logic. It manages the ingredients (water, milk, and beans), performs the actions (buying coffee, filling ingredients, cleaning the machine), and keeps track of coffee sales analytics.
+The Coffee Machine Simulator consists of two main classes:
+
+### 1. `Main`
+
+The `Main` class serves as the entry point of the program. It provides the main menu and handles user input. This class interacts with the `CoffeeMachineSimulator` class to perform various coffee machine actions.
+
+#### Main Class Methods
+
+- The main method that initializes the coffee machine simulator and displays the main menu. It continuously prompts the user for an action choice and invokes the corresponding method in the `CoffeeMachineSimulator` class.
+
+### 2. `CoffeeMachineSimulator`
+
+The `CoffeeMachineSimulator` class implements the coffee machine logic. It manages the ingredients, performs the coffee machine actions, and keeps track of coffee sales analytics.
+
+#### CoffeeMachineSimulator Class Properties
+
+- `water`: The amount of water in milliliters.
+- `beans`: The amount of coffee beans in grams.
+- `milk`: The amount of milk in milliliters.
+- `espressoCount`: The number of espresso coffees sold.
+- `latteCount`: The number of latte coffees sold.
+- `cappuccinoCount`: The number of cappuccino coffees sold.
+- `totalEarned`: The total earnings in dollars.
+
+#### CoffeeMachineSimulator Class Methods
+
+- `fillIngredients(Scanner sc)`: Prompts the user to enter the quantity of water, milk, and beans to add to the coffee machine. Updates the ingredient inventory accordingly.
+- `showIngredients()`: Displays the current status of the ingredients (water, milk, and beans).
+- `showAnalytics()`: Shows the coffee sales analytics, including the number of each coffee type sold and the total earnings.
+- `buyCoffee(Scanner sc)`: Allows the user to buy coffee by selecting a coffee type (Espresso, Cappuccino, or Latte). Checks the availability of ingredients and deducts the required amounts from the inventory. Updates the coffee sales and total earnings accordingly.
+- `checkIngredients(int waterNeeded, int milkNeeded, int beansNeeded)`: Checks if there are enough ingredients available to make a particular type of coffee.
+
+#### CoffeeMachineSimulator Class Constants
+
+- `espressoPrice`: The price of an Espresso coffee in dollars.
+- `lattePrice`: The price of a Latte coffee in dollars.
+- `cappuccinoPrice`: The price of a Cappuccino coffee in dollars.
+- `espressoWater`: The amount of water required to make an Espresso coffee in milliliters.
+- `latteWater`: The amount of water required to make a Latte coffee in milliliters.
+- `cappuccinoWater`: The amount of water required to make a Cappuccino coffee in milliliters.
+- `espressoMilk`: The amount of milk required to make an Espresso coffee in milliliters.
+- `latteMilk`: The amount of milk required to make a Latte coffee in milliliters.
+- `cappuccinoMilk`: The amount of milk required to make a Cappuccino coffee in milliliters.
+- `espressoBeans`: The amount of coffee beans required to make an Espresso coffee in grams.
+- `latteBeans`: The amount of coffee beans required to make a Latte coffee in grams.
+- `cappuccinoBeans`: The amount of coffee beans required to make a Cappuccino coffee in grams.
 
 ## Steps wise Step Explanation
 
